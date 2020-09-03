@@ -2,11 +2,11 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Color attributes -->
-        <item name="colorPrimary">@color/md_green_500</item>
-        <item name="colorPrimaryVariant">@color/md_green_700</item>
-        <item name="colorOnPrimary">@color/md_black_1000</item>
-        <item name="colorSecondary">@color/md_orange_500</item>
-        <item name="colorSecondaryVariant">@color/md_orange_300</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryLight</item>
+        <item name="colorOnPrimary">@color/md_white_1000</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryDark</item>
         <item name="colorOnSecondary">@color/md_black_1000</item>
         <item name="colorError">@color/md_red_700</item>
         <item name="colorOnError">@color/md_white_1000</item>
@@ -14,7 +14,7 @@
         <item name="colorOnSurface">@color/md_black_1000</item>
         <item name="android:colorBackground">@color/md_white_1000</item>
         <item name="colorOnBackground">@color/md_black_1000</item>
-
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
         <item name="textInputStyle">@style/Widget.BudgetManager.TextInput</item>
 
         <item name="textAppearanceBody1">

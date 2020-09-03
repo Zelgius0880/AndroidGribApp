@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.snackbar.Snackbar
-import zelgius.com.gribapp.databinding.FragmentBluetoothCliBinding
 import zelgius.com.gribapp.databinding.FragmentMainBinding
 
 class MainFragment : Fragment(){
@@ -39,7 +38,7 @@ class MainFragment : Fragment(){
         fcmViewModel = ViewModelHelper.create(context)
         binding.button.setOnClickListener {
             fcmViewModel.sendNotification().observeOnce(this) {
-                Snackbar.make(binding.root, if(it) R.string.message_sent else R.string.mesage_not_send, Snackbar.LENGTH_SHORT)
+                Snackbar.make(binding.root, if(it) R.string.message_sent else R.string.message_not_send, Snackbar.LENGTH_SHORT)
                     .show()
             }
         }

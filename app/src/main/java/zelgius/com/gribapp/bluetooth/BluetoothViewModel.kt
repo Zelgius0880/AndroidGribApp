@@ -88,7 +88,7 @@ class BluetoothViewModel(private val app: Application) : AndroidViewModel(app) {
             mChatService.write(send)
             _progress.postValue(true)
             isCountdown = true
-            handler.postDelayed(watchDogTimeOut, 3 * 60 * 1000 )
+            handler.postDelayed(watchDogTimeOut, 5 * 60 * 1000 )
         }
     }
 
