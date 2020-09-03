@@ -1,0 +1,103 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Color attributes -->
+        <item name="colorPrimary">@color/md_green_500</item>
+        <item name="colorPrimaryVariant">@color/md_green_700</item>
+        <item name="colorOnPrimary">@color/md_black_1000</item>
+        <item name="colorSecondary">@color/md_orange_500</item>
+        <item name="colorSecondaryVariant">@color/md_orange_300</item>
+        <item name="colorOnSecondary">@color/md_black_1000</item>
+        <item name="colorError">@color/md_red_700</item>
+        <item name="colorOnError">@color/md_white_1000</item>
+        <item name="colorSurface">@color/md_white_1000</item>
+        <item name="colorOnSurface">@color/md_black_1000</item>
+        <item name="android:colorBackground">@color/md_white_1000</item>
+        <item name="colorOnBackground">@color/md_black_1000</item>
+
+        <item name="textInputStyle">@style/Widget.BudgetManager.TextInput</item>
+
+        <item name="textAppearanceBody1">
+            @style/TextAppearance.AppTheme.Body1
+        </item>
+        <item name="textAppearanceBody2">
+            @style/TextAppearance.AppTheme.Body2
+        </item>
+
+
+        <item name="textAppearanceCaption">
+            @style/TextAppearance.AppTheme.Caption
+        </item>
+        <!-- Type attributes -->
+        <!--<item name="textAppearanceHeadline1">
+            @style/TextAppearance.AppTheme.Headline1
+        </item>
+        <item name="textAppearanceHeadline2">
+            @style/TextAppearance.AppTheme.Headline2
+        </item>
+        <item name="textAppearanceHeadline3">
+            @style/TextAppearance.AppTheme.Headline3
+        </item>
+        <item name="textAppearanceHeadline4">
+            @style/TextAppearance.AppTheme.Headline4
+        </item>
+        <item name="textAppearanceHeadline5">
+            @style/TextAppearance.AppTheme.Headline5
+        </item>
+        <item name="textAppearanceHeadline6">
+            @style/TextAppearance.AppTheme.Headline6
+        </item>
+        <item name="textAppearanceSubtitle1">
+            @style/TextAppearance.AppTheme.Subtitle1
+        </item>
+        <item name="textAppearanceSubtitle2">
+            @style/TextAppearance.AppTheme.Subtitle2
+        </item>
+
+        <item name="textAppearanceButton">
+            @style/TextAppearance.AppTheme.Button
+        </item>
+        <item name="textAppearanceOverline">
+            @style/TextAppearance.AppTheme.Overline
+        </item>
+        &lt;!&ndash; Shape attributes &ndash;&gt;
+        <item name="shapeAppearanceSmallComponent">
+            @style/ShapeAppearance.AppTheme.SmallComponent
+        </item>
+        <item name="shapeAppearanceMediumComponent">
+            @style/ShapeAppearance.AppTheme.MediumComponent
+        </item>
+        <item name="shapeAppearanceLargeComponent">
+            @style/ShapeAppearance.AppTheme.LargeComponent
+        </item>-->
+
+    </style>
+
+    <style name="Widget.AppTheme.ImageButton" parent="Widget.MaterialComponents.Button">
+        <!--<item name="backgroundTint">@color/primaryDarkColor</item>-->
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="tint">@color/md_white_1000</item>
+        <item name="rippleColor">@color/md_white_1000</item>
+        <item name="elevation">0dp</item>
+        <item name="iconSize">24dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="Widget.BudgetManager.TextInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@android:color/transparent</item>
+        <item name="colorOnSurface">@android:color/transparent</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme.Body1" parent="TextAppearance.MaterialComponents.Body1"/>
+    <style name="TextAppearance.AppTheme.Body2" parent="TextAppearance.MaterialComponents.Body2"/>
+    <style name="TextAppearance.AppTheme.Caption" parent="TextAppearance.MaterialComponents.Caption"/>
+    <style name="Widget.AppTheme.Button.Dialog" parent="Widget.MaterialComponents.Button.TextButton.Dialog"/>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/wifi_configuration"
+        android:icon="@drawable/ic_baseline_wifi_24"
+        android:title="@string/wifi_configuration"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/insecure_connect_scan"
+        android:title="@string/connect_scan_insecure"
+        app:showAsAction="ifRoom" />
+</menu>
